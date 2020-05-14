@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Projekt</title>
+<head>
+<link href="style.css" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+        <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-md navbar bg col-md">
+    <a class="navbar-brand" href="#">Menu</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+	
+		<div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+			
+               <li class="nav-link">
+               <a href="index.html" style="margin-top: -7px" class="btn btn-dark btn-lg"><img src=obrazek1.png alt=”logo”> <span class="glyphicon glyphicon-home"></span>Strona główna</a>   
+			   </li>
+              
+              <li class="nav-item">
+                <a href="galeria.html" style="margin-right: 7px" class="btn btn-dark btn-lg"> <img src=obrazek2.png alt=”logo”> <span class="glyphicon glyphicon-picture"></span>Galeria</a>	
+              </li>
+			  
+              <li class="nav-item">
+				<a href="kontakt.html" style="margin-right: 7px" class="btn btn-dark btn-lg"> <img src=obrazek3.png alt=”logo”> <span class="glyphicon glyphicon-earphone"></span>Kontakt</a>
+
+			  <li class="nav-item">
+				<a href="portfolio.html" class="btn btn-dark btn-lg"> <img src=obrazek4.png alt=”logo”> <span class="glyphicon glyphicon-user"></span>Portfolio</a>					
+			  </li>				
+				
+              </li>
+            </ul>
+		</div>
+
+    
+  </nav>
+  
+<div class="container">
+
+            <div class="row">
+
+                        <form id="contact-form" method="post" action="contact-2.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+						<center><h1> Formularz kontaktowy</h1></center>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Imię i nazwisko *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Wpisz swoje imię i nazwisko" required="required" data-error="Imię i Nazwisko jest wymagane!">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Adres e-mail *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Wpisz swój adres e-mail *" required="required" data-error="Adres e-mail jest wymagany!">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Informacja (ograniczone do 250 znaków) *</label>
+                                        <textarea id="form_message" name="message" maxlength="250" class="form-control" placeholder="Wpisz tutaj swoje informacje" rows="4" required="required" data-error="Informacje są wymagane!"></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Wyślij formularz">
+                                </div>
+                            </div>
+                            </div>
+
+                    </form>
+
+            </div>
+
+</div>
+<footer>
+2020 &copy; Copyright by Perzanowski
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+            Button
+          </button>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Tytuł</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  Zawartość
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Zamknij</button>
+                </div>
+              </div>
+            </div>
+          </div>
+  </footer>
+  
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+</body>
+<script src="js/angular.min.js"></script>
+
+</html>
